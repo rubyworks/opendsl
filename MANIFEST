@@ -1,0 +1,16 @@
+#!mast -x Syckfile bin lib meta qed test [A-Z]*
+lib/opendsl.rb
+meta/authors
+meta/contact
+meta/created
+meta/description
+meta/license
+meta/name
+meta/released
+meta/suite
+meta/summary
+meta/title
+meta/version
+LICENSE
+README
+HISTORY

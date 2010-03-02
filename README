@@ -1,0 +1,74 @@
+= OpenDSL
+
+* home: http://rubyworks.github.com/opendsl
+* work: http://github.com/rubyworks/opendsl
+
+== Free as a bird. Think like a duck.
+
+== DESCRIPTION
+
+OpenDSL provides an open nomenclature for writing
+domain specific instructions. The idea is inline
+with the idea of duck-typing. You can allow domain
+instructions to be given up front free of restriction,
+then applying them later their correctness plays out
+as they are utilized.
+
+The library is especailly useful for plugins systems.
+
+
+== RELEASE NOTES
+
+Please see HISTORY file.
+
+
+== SYNOPSIS
+
+There are a few different ways in which this library can be
+put to use, but the basic idea for all of them can be
+demonstrated simply enough.
+
+   Foo = OpenDSL.new do
+     foo do
+       'foo'
+     end
+   end
+
+   class Somthing
+     include Foo
+
+     def foobar
+       foo + 'bar'
+     end
+   end
+
+OpenDSL.new creates a subclass of Module. Indeed, this library was
+orginally called OpenModule, but the name was changed to focus
+on it's utility, rather than it's implementation. Since an OpenDSL
+object is a module you can use it just like any other module.
+
+
+== HOW TO INSTALL
+
+To install with RubyGems simply open a console and type:
+
+  gem install opendsl
+
+Site installation requires Setup.rb (gem install setup),
+then download the tarball package and type:
+
+  tar -xvzf openmodule-1.0.0.tgz
+  cd opendsl-1.0.0.tgz
+  sudo setup.rb all
+
+Windows users use 'ruby setup.rb all'.
+
+
+== LICENSE / COPYRIGHT
+
+Copyright (c) 2009 Thomas Sawyer
+
+This program is ditributed unser the terms of the MIT license.
+
+See LICENSE file for details.
+
