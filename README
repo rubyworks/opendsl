@@ -34,7 +34,7 @@ demonstrated simply enough.
      end
    end
 
-   class Somthing
+   class Something
      include Foo
 
      def foobar

@@ -1,0 +1,29 @@
+= README Example
+
+Require the OpenDSL library.
+
+  require 'opendsl'
+
+Create an OpenDSL module.
+
+  Foo = OpenDSL.new do
+    foo do
+      'foo'
+    end
+  end
+
+Apply it to a class.
+
+  class Something
+    include Foo
+
+    def foobar
+      foo + 'bar'
+    end
+  end
+
+Verify it worked as expected.
+
+  s = Something.new
+  s.foobar.assert == 'foobar'
+
