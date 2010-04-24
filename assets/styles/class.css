@@ -1,0 +1,17 @@
+/* CLASS STYLES */
+
+.centered {
+  width: 760px;
+  margin: 0 auto;
+}
+
+.colorized {
+  background: #8C9682;
+  color: #333333;
+}
+
+.highlighted {
+  background: #8C9682;
+  color: #C6CBC1;
+}
+
