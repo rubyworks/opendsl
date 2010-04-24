@@ -11,6 +11,7 @@ meta/suite
 meta/summary
 meta/title
 meta/version
+qed/example.rdoc
 LICENSE
 README
 HISTORY
