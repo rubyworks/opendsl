@@ -1,1 +1,5 @@
-OpenDSL is like the ultimate DSL system.
+OpenDSL is the ultimate DSL system. It
+marries the concept of duck-typing with
+Ruby's metaprogramming capabilities and
+mixin system to create a remarkably simple
+but incredibly powerful DSL framework.
