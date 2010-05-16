@@ -1,0 +1,24 @@
+--- 
+title  : OpenDSL
+suite  : rubyworks
+summary: The ultimate DSL
+contact: trans <transfire@gmail.com>
+authors: Thomas Sawyer
+license: MIT
+created: 2009-07-18
+
+description:
+  OpenDSL is the ultimate DSL system. It
+  marries the concept of duck-typing with
+  Ruby's metaprogramming capabilities and
+  mixin system to create a remarkably simple
+  but incredibly powerful DSL framework.
+
+resources:
+  homepage    : http://rubyworks.github.com/opendsl
+  development : http://github.com/rubyworks/opendsl
+  repository  : git://github.com/rubyworks/opendsl.git
+
+copyright:
+  Copyright (c) 2009 Thomas Sawyer
+
