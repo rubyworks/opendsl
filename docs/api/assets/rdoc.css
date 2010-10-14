@@ -64,6 +64,13 @@ ul {
   margin-left: 20px;
 }
 
+li {
+  line-height: 120%;
+}
+
+li p {
+  padding: 0; margin: 5px 0;
+}
 
 .head {
   width: auto;
@@ -77,8 +84,8 @@ ul {
 }
 
 .head h1 {
+  /* color: #666; */
   color: #FF226C;
-  color: #666;
   font-weight: bold;
   font-size: 18px;
 }

@@ -3,7 +3,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <META CONTENT="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <META NAME="generator" CONTENT="RDazzle Yardfish 1.4.0">
+  <META NAME="timestamp" CONTENT="2010-10-14 12:34:58 -0400">
 
   <title>OpenDSL</title>
 
@@ -49,11 +51,15 @@
         <h3 class="section-header">Information</h3>
         <ul>
         
-          <li class="file"><a href="files/HISTORY.html">HISTORY</a></li>
+          <li class="file"><a href="HISTORY_rdoc.html">HISTORY.rdoc</a></li>
         
-          <li class="file"><a href="files/LICENSE.html">LICENSE</a></li>
+          <li class="file"><a href="PROFILE.html">PROFILE</a></li>
         
-          <li class="file"><a href="files/README.html">README</a></li>
+          <li class="file"><a href="LICENSE.html">LICENSE</a></li>
+        
+          <li class="file"><a href="README_rdoc.html">README.rdoc</a></li>
+        
+          <li class="file"><a href="VERSION.html">VERSION</a></li>
         
         </ul>
       </div>
@@ -72,7 +78,7 @@
 
         <ul class="link-list">
         
-          <li class="class"><a href="classes/OpenDSL.html">OpenDSL</a></li>
+          <li class="class"><a href="OpenDSL.html">OpenDSL</a></li>
         
         </ul>
         <div id="no-class-search-results" style="display: none;">No matching classes.</div>
@@ -95,13 +101,13 @@
           
           <li class="singleton" style="clear: both;">
             <span class="method-parent-aside">OpenDSL</span>
-            <a href="classes/OpenDSL.html#M000000">::new</a>
+            <a href="OpenDSL.html#method-c-new">::new</a>
           </li>
         
           
           <li class="method" style="clear: both;">
             <span class="method-parent-aside">OpenDSL</span>
-            <a href="classes/OpenDSL.html#M000001">#method_missing</a>
+            <a href="OpenDSL.html#method-i-method_missing">#method_missing</a>
           </li>
         
         </ul>
@@ -114,7 +120,7 @@
       <div style="float: right; margin-right: 5px;">
         <a href="http://validator.w3.org/check/referer"><img src="assets/icon/check.png" alt="[Validate]" height="16" width="16" /></a>
       </div>
-      Generated with <a href="http://github.com/proutils/webri">WebRI RedFish</a> 1.2
+      Generated with <a href="http://rubyworks.github.com/rdazzle">RDazzle RedFish</a> 1.4.0
       <br/><br/> 
     </div>
   </div>
@@ -125,11 +131,15 @@
   <h2>Files</h2>
   <ul>
     
-      <li class="file"><a href="files/HISTORY.html">HISTORY</a></li>
+      <li class="file"><a href="HISTORY_rdoc.html">HISTORY.rdoc</a></li>
     
-      <li class="file"><a href="files/LICENSE.html">LICENSE</a></li>
+      <li class="file"><a href="LICENSE.html">LICENSE</a></li>
     
-      <li class="file"><a href="files/README.html">README</a></li>
+      <li class="file"><a href="PROFILE.html">PROFILE</a></li>
+    
+      <li class="file"><a href="README_rdoc.html">README.rdoc</a></li>
+    
+      <li class="file"><a href="VERSION.html">VERSION</a></li>
     
   </ul>
   
@@ -137,47 +147,49 @@
   <h2>Classes/Modules</h2>
   <ul>
     
-    <li class="class"><a href="classes/OpenDSL.html">OpenDSL</a></li>
+    <li class="class"><a href="OpenDSL.html">OpenDSL</a></li>
     
   </ul>
 
   <h2>Methods</h2>
   <ul>
     
-      <li><a href="classes/OpenDSL.html#M000000">::new &mdash; OpenDSL</a></li>
+      <li><a href="OpenDSL.html#method-c-new">::new &mdash; OpenDSL</a></li>
     
-      <li><a href="classes/OpenDSL.html#M000001">#method_missing &mdash; OpenDSL</a></li>
+      <li><a href="OpenDSL.html#method-i-method_missing">#method_missing &mdash; OpenDSL</a></li>
     
   </ul>
 -->
 
   
   <div id="documentation">
-    <h1><a href="../classes/OpenDSL.html">OpenDSL</a></h1>
+    <h1><a href="OpenDSL.html">OpenDSL</a></h1>
 <ul>
-<li>home: <a
+<li><p>
+home: <a
 href="http://rubyworks.github.com/opendsl">rubyworks.github.com/opendsl</a>
-
+</p>
 </li>
-<li>work: <a
+<li><p>
+work: <a
 href="http://github.com/rubyworks/opendsl">github.com/rubyworks/opendsl</a>
-
+</p>
 </li>
 </ul>
 <h2>DESCRIPTION</h2>
 <p>
-<a href="../classes/OpenDSL.html">OpenDSL</a> provides an open nomenclature
-for writing domain specific instructions. The idea is inline with the idea
-of duck-typing. You can allow domain instructions to be given up front free
-of restriction, then applying them later their correctness plays out as
-they are utilized.
+<a href="OpenDSL.html">OpenDSL</a> provides an open nomenclature for
+writing domain specific instructions. The idea is inline with the idea of
+duck-typing. You can allow domain instructions to be given up front free of
+restriction, then applying them later their correctness plays out as they
+are utilized.
 </p>
 <p>
 The library is especailly useful for plugins systems.
 </p>
 <h2>RELEASE NOTES</h2>
 <p>
-Please see <a href="HISTORY.html">HISTORY</a> file.
+Please see HISTORY file.
 </p>
 <h2>SYNOPSIS</h2>
 <p>
@@ -200,12 +212,11 @@ the basic idea for all of them can be demonstrated simply enough.
    end
 </pre>
 <p>
-<a href="../classes/OpenDSL.html#M000000">OpenDSL.new</a> creates a
-subclass of Module. Indeed, this library was orginally called OpenModule,
-but the name was changed to focus on it&#8217;s utility, rather than
-it&#8217;s implementation. Since an <a
-href="../classes/OpenDSL.html">OpenDSL</a> object is a module you can use
-it just like any other module.
+OpenDSL.new creates a subclass of Module. Indeed, this library was
+orginally called OpenModule, but the name was changed to focus on
+it&#8217;s utility, rather than it&#8217;s implementation. Since an <a
+href="OpenDSL.html">OpenDSL</a> object is a module you can use it just like
+any other module.
 </p>
 <h2>HOW TO INSTALL</h2>
 <p>
