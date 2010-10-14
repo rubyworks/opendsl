@@ -4,15 +4,13 @@
 <HEAD>
   <TITLE>OpenDSL</TITLE>
 
-  <LINK rel="shortcut icon" href="assets/images/ruby.png"/>
+  <LINK rel="shortcut icon" href="assets/ruby.png"/>
 
-  <LINK type="text/css" rel="stylesheet" href="assets/styles/reset.css" />
-  <LINK type="text/css" rel="stylesheet" href="assets/styles/tag.css" />
-  <LINK type="text/css" rel="stylesheet" href="assets/styles/id.css" />
-  <LINK type="text/css" rel="stylesheet" href="assets/styles/class.css" />
+  <LINK type="text/css" rel="stylesheet" href="assets/reset.css" />
+  <LINK type="text/css" rel="stylesheet" href="assets/custom.css" />
 
-  <SCRIPT language="javascript" type="text/javascript" src="assets/scripts/jquery.js"></SCRIPT>
-  <SCRIPT language="javascript" type="text/javascript" src="assets/scripts/highlight.js"></SCRIPT>
+  <SCRIPT language="javascript" type="text/javascript" src="assets/jquery.js"></SCRIPT>
+  <SCRIPT language="javascript" type="text/javascript" src="assets/highlight.js"></SCRIPT>
 
   <SCRIPT type="text/javascript">
     $(document).ready(function() {
@@ -22,7 +20,7 @@
     });
   </SCRIPT>
 
-  <LINK type="text/css" rel="stylesheet" href="assets/styles/highlight.css" />
+  <LINK type="text/css" rel="stylesheet" href="assets/highlight.css" />
 </HEAD>
 <BODY>
 
@@ -40,35 +38,19 @@
   <tr><td>
     <div id="doc">
       <p>OpenDSL is the ultimate DSL system. It
-marries the concept of duck-typing with
-Ruby's metaprogramming capabilities and
-mixin system to create a remarkably simple
-but incredibly powerful DSL framework.</p><br/>
+      marries the concepts of duck-typing with
+      Ruby's mixin system and metaprogramming capabilities 
+      to create a remarkably simple but incredibly powerful DSL framework.</p><br/>
       <a href="#" onclick="$('#readme').toggle();">Toggle README</a>
     </div>
   </td><td>
     <div id="nav">
       <ul>
-        
-        
-          <li><a href="http://rubyworks.github.com/opendsl/rdoc">API Guide</a></li>
-        
-        
-          <li><a href="http://wiki.github.com/rubyworks/opendsl">Wiki Wiki</a></li>
-        
-        
-          <li><a href="http://groups.google.com/group/rubyworks-mailinglist">Web Forum</a></li>
-        
-        
-          
-            <li><a href="mailto:rubyworks-mailinglist@googlegroups.com">Mailing List</a></li>
-          
-        
-        
-        
-        
-          <li><a href="http://rubyworks.github.com/opendsl/rdoc">Source Code</a></li>
-        
+          <li><a href="docs/qed">QED</a></li>
+          <li><a href="docs/api">API</a></li>
+          <li><a href="http://wiki.github.com/rubyworks/opendsl">WIKI</a></li>       
+          <li><a href="http://groups.google.com/group/rubyworks-mailinglist">MAIL</a></li>
+          <li><a href="http://rubyworks.github.com/opendsl">CODE</a></li>
       </ul>
     </div>
   </td></tr>
@@ -142,7 +124,7 @@ Windows users use &#8216;ruby setup.rb all&#8217;.
 Copyright &#169; 2009 Thomas Sawyer
 </p>
 <p>
-This program is ditributed unser the terms of the MIT license.
+This program is ditributed unser the terms of the Apache 2.0 license.
 </p>
 <p>
 See LICENSE file for details.
@@ -153,8 +135,8 @@ See LICENSE file for details.
 
 <div id="footer">
 <div class="centered">
-  <div class="advert">
-    <script type="text/javascript"><!--
+<div class="advert">
+<script type="text/javascript"><!--
 google_ad_client = "pub-1126154564663472";
 /* RUBYWORKS 09-10-02 728x90 */
 google_ad_slot = "0788888658";
