@@ -1,8 +1,10 @@
 #!mast .ruby .yardopts bin lib man qed spec test [A-Z]*.*
 .ruby
+.yardopts
 lib/opendsl/version.rb
 lib/opendsl.rb
 qed/example.rdoc
 HISTORY.rdoc
 README.rdoc
+QED.rdoc
 COPYING.rdoc

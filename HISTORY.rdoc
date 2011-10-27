@@ -1,5 +1,15 @@
 = HISTORY
 
+== 1.1.1 / 2011-10-28
+
+Quick fix release to get misisng QED.rdoc into the gem so 
+it show up on {rubydoc.info}[http://rubydoc.info].
+
+Changes:
+
+* Add QED.rdoc to gem.
+
+
 == 1.1.0 / 2011-10-27
 
 This is simplay a maintenace release, to bring the project up to date

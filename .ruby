@@ -36,7 +36,7 @@ revision: 0
 created: '2009-07-18'
 summary: The ultimate DSL!
 title: OpenDSL
-version: 1.1.0
+version: 1.1.1
 description: ! 'OpenDSL is the ultimate DSL system. It marries Ruby''s metaprogramming
   chops
 
