@@ -1,17 +1,8 @@
-#!mast -x Syckfile bin lib meta qed test [A-Z]*
+#!mast .ruby .yardopts bin lib man qed spec test [A-Z]*.*
+.ruby
+lib/opendsl/version.rb
 lib/opendsl.rb
-meta/authors
-meta/contact
-meta/created
-meta/description
-meta/license
-meta/name
-meta/released
-meta/suite
-meta/summary
-meta/title
-meta/version
 qed/example.rdoc
-LICENSE
-README
-HISTORY
+HISTORY.rdoc
+README.rdoc
+COPYING.rdoc

@@ -1,8 +1,0 @@
-name    : opendsl
-date    : 2009-07-18
-version : 1.0.0
-
-requires:
-  - syckle (build)
-  - qed    (test)
-

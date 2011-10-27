@@ -1,0 +1,23 @@
+---
+erbside:
+  path: lib/opendsl/version.rb
+
+email:
+  mailto:
+    - ruby-talk@ruby-lang.org
+    - rubyworks-mailinglist@googlegroups.com
+
+gem:
+  active: true
+
+github:
+  active: true
+
+dnote:
+  output: log/NOTES.rdoc
+
+vclog:
+  output:
+    - log/History.rdoc
+    - log/Changes.rdoc
+
