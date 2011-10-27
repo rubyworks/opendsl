@@ -1,4 +1,4 @@
 class OpenDSL
-  VERSION = "1.0.0"  #:erb: <%= version %>
+  VERSION = "1.1.0"  #:erb: VERSION = "<%= version %>"
 end
 

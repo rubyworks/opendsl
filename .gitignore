@@ -1,6 +1,8 @@
-.cache
-pkg
+.reap/digest
+.yardoc
 log
-ri
-tmp
+pages
+pkg
 site/docs
+tmp
+work
