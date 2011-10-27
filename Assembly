@@ -24,5 +24,5 @@ vclog:
 tag:
   service: custom
   release: |
-    puts %[pom news | git tag -F - #{project.version}]
+    puts %[pom news | git tag -a -F - #{project.version}]
 
