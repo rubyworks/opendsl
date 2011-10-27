@@ -1,7 +1,12 @@
 = OpenDSL
 
-* home: http://rubyworks.github.com/opendsl
-* work: http://github.com/rubyworks/opendsl
+{Homepage}[http://rubyworks.github.com/opendsl] |
+{Source Code}[http://github.com/rubyworks/opendsl] |
+{Mailing List}[http://groups.google.com/group/rubyworks-mailinglist] |
+{Issue Tracker}[http://github.com/rubyworks/opendsl/issues] |
+
+{<img src="http://travis-ci.org/rubyworks/opendsl.png" />}[http://travis-ci.org/rubyworks/opendsl]
+
 
 == DESCRIPTION
 
