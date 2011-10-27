@@ -21,3 +21,8 @@ vclog:
     - log/History.rdoc
     - log/Changes.rdoc
 
+tag:
+  service: custom
+  release: |
+    puts %[pom news | git tag -F - #{version}]
+
