@@ -1,0 +1,71 @@
+
+<h1>OpenDSL</h1>
+
+<p><a href="http://rubyworks.github.com/opendsl">Homepage</a> | <a
+href="http://github.com/rubyworks/opendsl">Source Code</a> | <a
+href="http://groups.google.com/group/rubyworks-mailinglist">Mailing
+List</a> | <a href="http://github.com/rubyworks/opendsl/issues">Issue
+Tracker</a> |</p>
+
+<p><a href="http://travis-ci.org/rubyworks/opendsl"><img
+src="http://travis-ci.org/rubyworks/opendsl.png" /></a></p>
+
+<h2>DESCRIPTION</h2>
+
+<p>OpenDSL provides an open nomenclature for writing domain specific
+instructions. The idea is inline with the idea of duck-typing. You can
+allow domain instructions to be given up front free of restriction, then
+applying them later their correctness plays out as they are utilized.</p>
+
+<p>The library is especailly useful for plugins systems.</p>
+
+<h2>RELEASE NOTES</h2>
+
+<p>Please see HISTORY.rdoc file.</p>
+
+<h2>SYNOPSIS</h2>
+
+<p>There are a few different ways in which this library can be put to use, but
+the basic idea for all of them can be demonstrated simply enough.</p>
+
+<pre>Foo = OpenDSL.new do
+  foo do
+    'foo'
+  end
+end
+
+class Something
+  include Foo
+
+  def foobar
+    foo + 'bar'
+  end
+end</pre>
+
+<p>OpenDSL.new creates a subclass of Module. Indeed, this library was
+orginally called OpenModule, but the name was changed to focus on it’s
+utility, rather than it’s implementation. Since an OpenDSL object is a
+module you can use it just like any other module.</p>
+
+<h2>HOW TO INSTALL</h2>
+
+<p>To install with RubyGems simply open a console and type:</p>
+
+<pre>gem install opendsl</pre>
+
+<p>Site installation requires Setup.rb (gem install setup), then download the
+tarball package and type:</p>
+
+<pre>tar -xvzf openmodule-1.0.0.tgz
+cd opendsl-1.0.0.tgz
+sudo setup.rb all</pre>
+
+<p>Windows users use ‘ruby setup.rb all’.</p>
+
+<h2>COPYRIGHTS</h2>
+
+<p>Copyright © 2009 Thomas Sawyer</p>
+
+<p>This program is ditributed unser the terms of the <b>FreeBSD</b> license.</p>
+
+<p>See COPYING.rdoc file for details.</p>
