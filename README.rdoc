@@ -22,7 +22,7 @@ The library is especailly useful for plugins systems.
 
 == RELEASE NOTES
 
-Please see HISTORY file.
+Please see HISTORY.rdoc file.
 
 
 == SYNOPSIS
@@ -67,11 +67,11 @@ then download the tarball package and type:
 Windows users use 'ruby setup.rb all'.
 
 
-== LICENSE / COPYRIGHT
+== COPYRIGHTS
 
 Copyright (c) 2009 Thomas Sawyer
 
-This program is ditributed unser the terms of the MIT license.
+This program is ditributed unser the terms of the *FreeBSD* license.
 
-See LICENSE file for details.
+See COPYING.rdoc file for details.
 
