@@ -1,6 +1,6 @@
 = HISTORY
 
-== 1.0.1 / 2011-10-27
+== 1.1.0 / 2011-10-27
 
 This is simplay a maintenace release, to bring the project up to date
 with modern build tools.
