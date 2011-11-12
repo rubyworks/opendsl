@@ -19,9 +19,10 @@ gem:
   active: true
 
 github:
-  active: true
+  gh_pages: web
 
 dnote:
+  title: Developer's Notes
   output: log/NOTES.rdoc
 
 vclog:
